@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.dev.vars
+node_modules/
+dist/
+.DS_Store
+__pycache__/
+.venv/
+/scratch/

@@ -1,0 +1,30 @@
+# Diccionario de IA — Índice en español
+
+[Inicio](../README.md) · [English index](en.md) · [Fuentes y lecturas](sources/es.md)
+
+Busca una palabra que viste en una herramienta o escuchaste en el trabajo. Si estás empezando, lee [Inteligencia artificial](entries/artificial-intelligence/es.md), [IA generativa](entries/generative-ai/es.md) e [Instrucción (prompt)](entries/prompt/es.md).
+
+- [Agente de IA (AI agent)](entries/ai-agent/es.md)
+- [Alucinación (hallucination)](entries/hallucination/es.md)
+- [Anclaje en fuentes (grounding)](entries/grounding/es.md)
+- [Aprendizaje automático (machine learning, ML)](entries/machine-learning/es.md)
+- [Asistente de IA (AI assistant)](entries/ai-assistant/es.md)
+- [Automatización](entries/automation/es.md)
+- [Chatbot (bot conversacional)](entries/chatbot/es.md)
+- [Datos de entrenamiento (training data)](entries/training-data/es.md)
+- [Datos personales](entries/personal-data/es.md)
+- [Evaluación](entries/evaluation/es.md)
+- [IA generativa (generative AI, GenAI)](entries/generative-ai/es.md)
+- [IA multimodal](entries/multimodal-ai/es.md)
+- [Instrucción (prompt)](entries/prompt/es.md)
+- [Inteligencia artificial (IA, AI)](entries/artificial-intelligence/es.md)
+- [Memoria (memory)](entries/memory/es.md)
+- [Modelo (model)](entries/model/es.md)
+- [Modelo de lenguaje de gran tamaño (LLM)](entries/large-language-model/es.md)
+- [Resultado (output)](entries/output/es.md)
+- [Sesgo (bias)](entries/bias/es.md)
+- [Sistema de recomendación (recommender system)](entries/recommendation-system/es.md)
+- [Supervisión humana (human oversight, human in the loop)](entries/human-oversight/es.md)
+- [Token](entries/token/es.md)
+- [Ultrafalsificación (deepfake)](entries/deepfake/es.md)
+- [Ventana de contexto (context window)](entries/context-window/es.md)

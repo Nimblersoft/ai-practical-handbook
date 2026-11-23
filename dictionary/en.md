@@ -1,0 +1,30 @@
+# AI Dictionary — English index
+
+[Home](../README.md) · [Índice en español](es.md) · [Sources and further reading](sources/en.md)
+
+Look up a word you heard at work or saw in an app. New to AI? Start with [Artificial intelligence](entries/artificial-intelligence/en.md), [Generative AI](entries/generative-ai/en.md), and [Prompt](entries/prompt/en.md).
+
+- [AI agent](entries/ai-agent/en.md)
+- [AI assistant](entries/ai-assistant/en.md)
+- [Artificial intelligence (AI)](entries/artificial-intelligence/en.md)
+- [Automation](entries/automation/en.md)
+- [Bias](entries/bias/en.md)
+- [Chatbot](entries/chatbot/en.md)
+- [Context window](entries/context-window/en.md)
+- [Deepfake](entries/deepfake/en.md)
+- [Evaluation](entries/evaluation/en.md)
+- [Generative AI (GenAI)](entries/generative-ai/en.md)
+- [Grounding](entries/grounding/en.md)
+- [Hallucination](entries/hallucination/en.md)
+- [Human oversight (human in the loop)](entries/human-oversight/en.md)
+- [Large language model (LLM)](entries/large-language-model/en.md)
+- [Machine learning (ML)](entries/machine-learning/en.md)
+- [Memory](entries/memory/en.md)
+- [Model](entries/model/en.md)
+- [Multimodal AI](entries/multimodal-ai/en.md)
+- [Output (AI-generated result)](entries/output/en.md)
+- [Personal data](entries/personal-data/en.md)
+- [Prompt](entries/prompt/en.md)
+- [Recommendation system](entries/recommendation-system/en.md)
+- [Token](entries/token/en.md)
+- [Training data](entries/training-data/en.md)
