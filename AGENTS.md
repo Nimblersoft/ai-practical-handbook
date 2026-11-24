@@ -1,11 +1,12 @@
-# AI Dictionary — Agent Guide
+# AI Practical Handbook — Agent Guide
 
 This repository is a public educational reference, not a software service. Its
 Markdown is read directly on GitHub; there is no reader-side build, runtime,
 datastore, or secret.
 
 - **Entries and indexes:** follow the [dictionary contract](docs/specs/dictionary.md)
-  before editing `dictionary/`. Use [CONTEXT.md](CONTEXT.md) for editorial terms.
+  before editing `dictionary/`. For reader-facing tutorials in `workflows/`, follow
+  the [workflow contract](docs/specs/workflows.md). Use [CONTEXT.md](CONTEXT.md) for editorial terms.
 - **Documentation:** the [blueprint](docs/docs-organization-blueprint.md) owns
   filing, scratch space, and lifecycle rules. Use the [wiki index](docs/index.md)
   to find decisions and specifications.

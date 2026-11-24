@@ -1,6 +1,6 @@
 # AI Dictionary — English index
 
-[Home](../README.md) · [Índice en español](es.md) · [Sources and further reading](sources/en.md)
+[Home](../README.md) · [Índice en español](es.md) · [Practical workflows](../workflows/en.md) · [Sources and further reading](sources/en.md)
 
 Look up a word you heard at work or saw in an app. New to AI? Start with [Artificial intelligence](entries/artificial-intelligence/en.md), [Generative AI](entries/generative-ai/en.md), and [Prompt](entries/prompt/en.md).
 

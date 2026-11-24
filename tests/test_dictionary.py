@@ -78,7 +78,7 @@ class DictionaryTest(unittest.TestCase):
 
     # Spec: docs/specs/dictionary.md
     def test_reader_navigation_has_no_broken_local_links(self):
-        pages = [ROOT / "README.md", *DICTIONARY.rglob("*.md")]
+        pages = [ROOT / "README.md", *DICTIONARY.rglob("*.md"), *(ROOT / "workflows").rglob("*.md")]
         for page in pages:
             for href in links(page.read_text()):
                 reference = urlsplit(href)
@@ -88,3 +88,23 @@ class DictionaryTest(unittest.TestCase):
                 with self.subTest(page=page.relative_to(ROOT), href=href):
                     self.assertTrue(target.is_file())
                     self.assertFalse(reference.fragment, "Link directly to the language file")
+
+    # Spec: docs/specs/workflows.md
+    def test_workflows_are_reachable_in_both_languages(self):
+        root = ROOT / "workflows"
+        guides = {p.name for p in root.iterdir() if p.is_dir()}
+        self.assertTrue({"connect-mcp", "delegate-to-subagents", "check-an-answer"} <= guides)
+        home = list(links((ROOT / "README.md").read_text()))
+        self.assertLess(home.index("workflows/en.md"), home.index("workflows/es.md"))
+        for code, (other, _, _) in LANGUAGES.items():
+            index = list(links((root / f"{code}.md").read_text()))
+            self.assertCountEqual([href for href in index if href.split("/")[0] in guides],
+                                  [f"{guide}/{code}.md" for guide in guides])
+            self.assertIn(f"{other}.md", index)
+            for guide in guides:
+                with self.subTest(guide=guide, language=code):
+                    page = (root / guide / f"{code}.md").read_text()
+                    self.assertIn(f"{other}.md", links(page))
+                    self.assertIn(f"../{code}.md", links(page))
+                    concepts = [href for href in links(page) if "/dictionary/" in href]
+                    self.assertTrue(concepts and all(href.endswith(f"/{code}.md") for href in concepts))

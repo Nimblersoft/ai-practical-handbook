@@ -1,4 +1,4 @@
-# AI Dictionary Documentation Blueprint
+# AI Practical Handbook Documentation Blueprint
 
 This document defines how documentation is organized in this repository: the divide between
 versioned and unversioned material, the directory layout, the filing rules that keep folders
@@ -68,6 +68,7 @@ A **hybrid folder/tag structure**:
 ├── README.md                        # Human-facing overview
 ├── CHANGELOG.md                     # Full release history + unreleased changes
 ├── dictionary/                      # Public indexes and bilingual entries
+├── workflows/                       # Reader-facing how-to guides and language indexes
 └── docs/
     ├── index.md                     # Wiki landing page / document map
     ├── docs-organization-blueprint.md  # This file

@@ -1,6 +1,6 @@
 # Diccionario de IA — Índice en español
 
-[Inicio](../README.md) · [English index](en.md) · [Fuentes y lecturas](sources/es.md)
+[Inicio](../README.md) · [English index](en.md) · [Guías prácticas](../workflows/es.md) · [Fuentes y lecturas](sources/es.md)
 
 Busca una palabra que viste en una herramienta o escuchaste en el trabajo. Si estás empezando, lee [Inteligencia artificial](entries/artificial-intelligence/es.md), [IA generativa](entries/generative-ai/es.md) e [Instrucción (prompt)](entries/prompt/es.md).
 
